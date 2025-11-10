@@ -15,15 +15,15 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "gruzok",
-    "image": "https://example.com/images/hero.jpg",
-    "telephone": "+380934022637",  /* >> ВСТАВТЕ СВІЙ НОМЕР */
+    "image": "https://gruzok.od.ua/images/hero.png",
+    "telephone": "+380934022637",  
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Одеса",
       "addressRegion": "Одеська область",
       "addressCountry": "UA"
     },
-    "url": "https://example.com",
+    "url": "https://gruzok.od.ua",
     "priceRange": "₴",
     "description": "Послуги вантажників в Одесі: квартирні та офісні переїзди, доставка меблів, пакування, перевезення речей. Мінімальна ставка 250 грн/год."
   }
@@ -100,7 +100,7 @@
           <li><a href="#services">Послуги</a></li>
           <li><a href="#tariffs">Тарифи</a></li>
           <li><a href="#about">Про нас</a></li>
-          <li><a href="#reviews">Відгуки</a></li>
+         <!-- <li><a href="#reviews">Відгуки</a></li>-->
           <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Контакти</a></li>
         </ul>
@@ -117,8 +117,11 @@
           <p class="lead">Допоможемо з переїздом, доставкою меблів та перевезенням речей. Надійно, акуратно, без зайвих турбот.</p>
           <a class="cta scroll-contact" href="#contact">Подзвонити</a>
         </div>
-        <div class="hero-image" style="background-image:url('images/hero.png')" aria-label="Вантажники gruzok в Одесі"></div>
-      </div>
+       <div class="hero-image"
+     style="background-image:url('images/hero.png')"
+     role="img"
+     aria-label="Вантажники gruzok переносять речі в Одесі"></div>
+
     </section>
 
     <section id="services" class="services container fade-in">
@@ -129,15 +132,16 @@
     <section id="tariffs" class="tariffs container fade-in">
       <h2>Тарифи</h2>
       <p>Базова ставка — <strong>250 ₴ за годину</strong>. Мінімальне замовлення — <strong>2 години</strong>, за <strong>двох вантажників</strong>.</p>
-      <p>Таким чином, найменша вартість виїзду складає 1000 ₴. У вартість входить робота вантажників, допомога з пакуванням та акуратне перенесення речей. Транспортна послуга узгоджується окремо залежно від відстані.</p>
+      <p>Таким чином, найменша вартість виїзду складає 1000 ₴. У вартість входить робота вантажників, та акуратне перенесення речей. Транспортна послуга узгоджується окремо залежно від відстані.</p>
     </section>
 
     <section id="about" class="about container fade-in">
       <h2>Про компанію</h2>
-      <p>gruzok — це команда вантажників в Одесі, які працюють відповідально та з повагою до кожного клієнта. Ми надаємо послуги переїзду та перевезення речей по всьому місту й області. Мета компанії — зробити процес переїзду простим, швидким і зрозумілим для замовника.</p>
+      <p>gruzok — це команда вантажників в Одесі, які працюють відповідально та з повагою до кожного клієнта. Ми надаємо послуги переїзду та перевезення речей по всьому місту. Мета компанії — зробити процес переїзду простим, швидким і зрозумілим для замовника.</p>
     </section>
 
-    <section id="reviews" class="reviews container fade-in">
+    <section id="reviews" class="reviews container fade-in" style="display:none;">
+
       <h2>Відгуки клієнтів</h2>
       <blockquote>
         <p>“Замовляли допомогу при переїзді — усе пройшло без стресу. Вантажники ввічливі та акуратні.”</p>
@@ -149,14 +153,17 @@
       </blockquote>
     </section>
 
+    
     <section id="faq" class="faq container fade-in">
       <h2>Поширені питання</h2>
+      <div class="faq-item">
       <h3>Як замовити послуги?</h3>
-      <p>Зателефонуйте нам або натисніть кнопку «Телефонувати» — ми одразу уточнимо деталі.</p>
+      <p>Подзвоніть і ми уточнимо деталі — без зайвих формальностей</p>
       <h3>Чи надаєте ви пакувальні матеріали?</h3>
       <p>Так, можемо надати плівку, коробки та інші матеріали за попереднім запитом.</p>
-      <h3>Чи можна замовити доставку меблів?</h3>
-      <p>Так, ми допоможемо доставити меблі з магазину, розібрати та зібрати їх на місці.</p>
+      <h3>Як швидко ви можете приїхати?</h3>
+      <p>Ми працюємо щоденно. Виїзд у межах Одеси зазвичай протягом 1-2 годин після підтвердження.</p>
+      </div>
     </section>
 
     <section id="contact" class="contact container fade-in">
